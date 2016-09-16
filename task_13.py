@@ -12,3 +12,13 @@
 """
 
 import task_12
+if task_12.DECVAL == task_12.FLOATVAL:
+    FRAC_DEC_EQUAL = 'True'
+else:
+    FRAC_DEC_EQUAL = 'Not True'
+print FRAC_DEC_EQUAL
+if task_12.DECVAL != task_12.FLOATVAL:
+    DEC_FLOAT_INEQUAL = 'True'
+else:
+    DEC_FLOAT_INEQUAL = 'Not True'
+print DEC_FLOAT_INEQUAL
